@@ -1,0 +1,57 @@
+urxvt*font:             xft:terminus:size=8:antialias=false
+urxvt*termName:         rxvt
+urxvt*background:       #1c2027
+urxvt*foreground:       #ffffff
+urxvt*scrollBar:        false
+urxvt*matcher.button:   1
+urxvt*transparent:      false
+urxvt*allow_bold:       true
+
+URxvt.perl-ext-common:  default,matcher
+URxvt.urlLauncher:      /usr/bin/chromium
+URxvt.matcher.button:   1
+
+!URxvt.tabbed_new.tabren-bg: 7
+!URxvt.tabbed_new.tabdiv-fg: 6
+!URxvt.tabbed_new.tabbar-fg: 6
+!URxvt.tabbed_new.tabbar-bg: 0
+!URxvt.tabbed_new.tabsel-fg: 1
+!URxvt.tabbed_new.tabsel-bg: 7
+!URxvt.tabbed_new.tab-fg:    6
+!URxvt.tabbed_new.tab-bg:    8
+
+Xft*dpi:                96
+Xft*antialias:          true
+Xft*hinting:            full
+
+URxvt*geometry: 80x24
+URxvt*fading:        0
+!URxvt*tintColor:     #ffffff
+URxvt*shading:       0
+URxvt*inheritPixmap:     False
+ 
+! black
+*color0:        #1c2027
+*color8:        #666666
+! red
+*color1:        #A62A3E
+*color9:        #F04758
+! green
+*color2:        #38912B
+*color10:       #93C724
+! yellow
+*color3:        #B27D12
+*color11:       #DDB62B
+! blue
+*color4:        #355C9A
+*color12:       #45A3E6
+! magenta
+*color5:        #7C4F9F
+*color13:       #C953EF
+! cyan
+*color6:        #258F8F
+*color14:       #60C6C8
+! white
+*color7:        #77858C
+*color15:       #C0C0C0
+
