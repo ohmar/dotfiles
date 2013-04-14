@@ -1,4 +1,8 @@
-urxvt*font:             xft:terminus:size=8:antialias=false
+URxvt.font: xft:Droid Sans Mono:medium:pixelsize=10
+URxvt.boldfont: xft:Droid Sans Mono:bold:pixelsize=10
+URxvt.talicfont: xft:Droid Sans Mono:pixelsize=10:Italic
+URxvt.bolditalicfont: xft:Droid Sans Mon:o:pixelsize=10:Bold:Italic
+
 urxvt*termName:         rxvt
 urxvt*background:       #1c2027
 urxvt*foreground:       #ffffff
@@ -20,9 +24,11 @@ URxvt.matcher.button:   1
 !URxvt.tabbed_new.tab-fg:    6
 !URxvt.tabbed_new.tab-bg:    8
 
-Xft*dpi:                96
-Xft*antialias:          true
-Xft*hinting:            full
+Xft.dpi:                96
+Xft.antialias:          true
+Xft.rgba:		rgb
+Xft.hinting:            true
+Xft.hintstyle:		hintslight
 
 URxvt*geometry: 80x24
 URxvt*fading:        0
