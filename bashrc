@@ -8,10 +8,11 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-#command cowsay $(fortune)
+function _update_ps1()
+{
+    export PS1="$(/home/omar/powerline-shell/powerline-shell.py $?) "
+}
 
-#Add powerline to Bash
-if [ -f ~/.local/lib/python3.3/site-packages/powerline/bindings/bash/powerline.sh ]; then source ~/.local/lib/python3.3/site-packages/powerline/bindings/bash/powerline.sh
-fi
+export PROMPT_COMMAND="_update_ps1"
 
 source /usr/share/git/completion/git-completion.bash
