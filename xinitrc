@@ -1,6 +1,8 @@
-xrandr --output Virtual1 --mode 1280x768
+xbindkeys -f ~/.xbindkeysrc &
 
 xrdb -merge ~/.Xresources &
+
+sh ~/.fehbg &
 
 conky | while read -r; do xsetroot -name "$REPLY"; done &
 
