@@ -1,4 +1,5 @@
-URxvt*font:     xft:Droid Sans Mono for Powerline:style=Regular:pixelsize=11:antialias=true:hinting=true
+!!URxvt*font:     xft:Droid Sans Mono for Powerline:style=Regular:pixelsize=11:antialias=true:hinting=true
+URxvt*font:     xft:Terminess Powerline:style=Regular:pixelsize=11:antialias=true:hinting=true
 urxvt*allow_bold:       true
 
 urxvt*termName:		rxvt

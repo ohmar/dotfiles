@@ -7,4 +7,4 @@ total_run_times 0
 use_spacer none
 
 TEXT
-${battery_short} :: ${cpu cpu0}% :: $mem :: ${time %a %b %d %I:%M%P}
+${battery_short} ${battery_time} :: ${acpitemp}c :: ${cpu cpu0}% :: $mem :: ${time %a %b %d %I:%M%P}

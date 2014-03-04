@@ -1,4 +1,5 @@
-set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 9
+" set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 9
+set guifont=Terminess\ Powerline\ 9
 set nocompatible
 set backspace=2
 
