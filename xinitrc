@@ -1,5 +1,7 @@
 xbindkeys -f ~/.xbindkeysrc &
 
+xmodmap ~/.xmodmap &
+
 xrdb -merge ~/.Xresources &
 
 sh ~/.fehbg &
