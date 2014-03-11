@@ -35,6 +35,7 @@ set grepprg=grep\ -nH\ $*
 let g:tex_flavor="latex"
 set softtabstop=4
 set runtimepath+=/usr/share/vim/vimfiles
+let g:Tex_DefaultTargetFormat="pdf"
 
 "Note: This option must set it in .vimrc(_vimrc).  NOT IN .gvimrc(_gvimrc)!
 " Disable AutoComplPop.
