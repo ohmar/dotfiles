@@ -13,6 +13,7 @@ Bundle 'gmarik/vundle'
 Bundle 'junegunn/seoul256.vim'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'Shougo/neocomplete.vim'
+Bundle 'chriskempson/base16-vim'
 
 filetype plugin on
 " set grepprg=grep\ -nH\ $*
@@ -20,7 +21,8 @@ filetype indent on
     
 set t_Co=256
 syntax on
-colorscheme seoul256
+colorscheme base16-tomorrow
+set background=dark
 set number
 
 " Initialize powerline.
