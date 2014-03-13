@@ -21,7 +21,7 @@ filetype indent on
     
 set t_Co=256
 syntax on
-colorscheme base16-tomorrow
+colorscheme base16-ocean
 set background=dark
 set number
 
