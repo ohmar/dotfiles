@@ -3,6 +3,10 @@ set guifont=Terminess\ Powerline\ 9
 set nocompatible
 set backspace=2
 
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 " Set runtime path for vundle and initialize.
 filetype off
 set rtp+=~/.vim/bundle/vundle
