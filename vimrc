@@ -22,7 +22,7 @@ Bundle 'chriskempson/base16-vim'
 filetype plugin on
 " set grepprg=grep\ -nH\ $*
 filetype indent on
-    
+
 set t_Co=256
 syntax on
 colorscheme base16-ocean
@@ -33,7 +33,7 @@ set number
 "python from powerline.vim import setup as powerline_setup
 "python powerline_setup()
 "python del powerline_setup
-set rtp+=/home/omar/.local/lib/python3.3/site-packages/powerline/bindings/vim
+set rtp+=/home/omar/.local/lib/python3.4/site-packages/powerline/bindings/vim
 
 " LaTeX stuff
 set laststatus=2
@@ -126,7 +126,3 @@ endif
 " For perlomni.vim setting.
 " https://github.com/c9s/perlomni.vim
 let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
-
-
-
-
