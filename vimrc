@@ -25,7 +25,7 @@ filetype indent on
 
 set t_Co=256
 syntax on
-colorscheme base16-ocean
+colorscheme zenburn
 set background=dark
 set number
 
@@ -43,7 +43,6 @@ set softtabstop=4
 set runtimepath+=/usr/share/vim/vimfiles
 let g:Tex_DefaultTargetFormat="pdf"
 
-"Note: This option must set it in .vimrc(_vimrc).  NOT IN .gvimrc(_gvimrc)!
 " Disable AutoComplPop.
 let g:acp_enableAtStartup = 0
 " Use neocomplete.

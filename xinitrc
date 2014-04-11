@@ -5,3 +5,5 @@ xrandr --addmode VGA1 1680x1050 &
 xmodmap ~/.xmodmap &
 
 xrdb -merge ~/.Xresources &
+
+redshift &
