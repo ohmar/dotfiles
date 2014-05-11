@@ -1,82 +1,84 @@
-URxvt*font:     xft:Droid Sans Mono for Powerline:style=Regular:pixelsize=11:antialias=true:hinting=true
-!!URxvt*font:     xft:Terminess Powerline:style=Regular:pixelsize=11:antialias=true:hinting=true
-urxvt*allow_bold:       true
+! *font: -*-terminus-symbols-*-*-*-*-*-*-*-*-*-*-*-*
+! *boldFont: -*-terminus-symbols-*-*-*-*-*-*-*-*-*-*-*-*
+URxvt*font: xft:Terminess Powerline:size=9
 
-urxvt*termName:		rxvt
-urxvt*scrollBar:	false
-urxvt*matcher.button:	1
-urxvt*transparent:	false
+! *font: -*-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-1
+! *boldFont: -*-terminus-bold-r-normal--12-120-72-72-c-60-iso8859-1
 
-URxvt.perl-ext-common:	default,clipboard,url-select,keyboard-select,matcher
-URxvt.url-select.launcher:   /usr/bin/chromium
-URxvt.url-select.underline: true
-URxvt.matcher.button:	1
+! *font: xft:Inconsolata:size=9:style=Regular
+! *boldFont: xft:Inconsolata:size=9:style=Bold
+! urxvt.letterSpace: -1
 
-Xft.dpi:                96
-Xft.antialias:          true
-Xft.rgba:		rgb
-Xft.hinting:            true
-Xft.hintstyle:		hintslight
+! *font: xft:DejaVu Sans Mono:pixelsize=18:style=Book
+! *boldFont: xft:DejaVu Sans Mono:pixelsize=18:style=Bold
+! urxvt.letterSpace: -1
 
-URxvt*geometry:		100x40
-URxvt*fading:		0
-URxvt*shading:		0
-URxvt*inheritPixmap:	False
+! XFT CONFIG
 
+Xft.dpi:       96
+Xft.rgba:      rgb
+Xft.antialias: 1
+Xft.hinting:   1
+Xft.autohint:  1
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
 
-URxvt.foreground: #dcdccc
- 
-!URxvt.depth: 32
-URxvt*background: #3f3f3f
- 
-URxvt.saveLines:32767
-URxvt.scrollBar: false
- 
-URxvt.urlLauncher: uzbl-browser
-URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
- 
-URxvt*colorUL: #c5f779
-URxvt*underlineColor: #c5f779
- 
-URxvt*color0:	#3f3f3f
-URxvt*color1:       #705050
-URxvt*color2:     #60b48a
-URxvt*color3:    #dfaf8f
-URxvt*color4:      #506070
-URxvt*color5:   #dc8cc3
-URxvt*color6:      #8cd0d3
-URxvt*color7:     #DCDCCC
- 
-URxvt*color8:      #709080
-URxvt*color9:      #cc9393
-URxvt*color10:    #7f9f7f
-URxvt*color11:   #f0dfaf
-URxvt*color12:     #94bff3
-URxvt*color13:  #ec93d3
-URxvt*color14:    #93e0e3
-URxvt*color15:          #ffffff
- 
-!black
-xterm*color0:         #353535
-xterm*color8:         #666666
-!red
-xterm*color1:         #AE4747
-xterm*color9:         #EE6363
-!green
-xterm*color2:         #556B2F
-xterm*color10:        #9ACD32
-!brown/yellow
-xterm*color3:         #DAA520
-xterm*color11:        #FFC125
-!blue
-xterm*color4:         #6F99B4
-xterm*color12:        #7C96B0
-!magenta
-xterm*color5:         #8B7B8B
-xterm*color13:        #D8BFD8
-!cyan
-xterm*color6:         #A7A15E
-xterm*color14:        #F0E68C
-!white
-xterm*color7:         #DDDDDD
-xterm*color15:        #FFFFFF
+! URXVT CONFIG
+
+urxvt.termName:          xterm-256color
+urxvt.imLocale:          en_US.UTF-8
+urxvt.iso14755:          0
+urxvt.iso14755_52:       0
+urxvt.loginShell:        1
+urxvt*internalBorder:    3
+urxvt.cursorBlink:       1
+! urxvt.cursorUnderline:   1
+urxvt.scrollBar:         0
+urxvt.scrollTtyOutput:   0
+urxvt.scrollTtyKeypress: 1
+urxvt.jumpScroll:        0
+urxvt.saveLines:         4096
+urxvt.boldMode:          0
+urxvt.inheritPixmap:     0
+urxvt.perl-ext-common:   default,clipboard,matcher,keyboard-select
+urxvt.matcher.button:    1
+urxvt.underlineURLs:     1
+urxvt.url-launcher:      /usr/bin/chromium
+urxvt.keysym.M-c:        perl:clipboard:copy
+urxvt.keysym.M-v:        perl:clipboard:paste
+
+! COLORS
+
+! Molokai Color Scheme
+*colorIT: #87af5f
+*colorBD: #d7d7d7
+*colorUL: #87afd7
+
+*foreground: #8F8F8F
+! *background: [98]#1c1c1c
+*background: #1c1c1c
+urxvt.depth: 32
+! Dark Yellow + Yellow
+*color3:  #E6DB74
+*color11: #FFF381
+! Black + Dark Grey
+*color0: #000000
+*color8: #232526
+! Light Grey + White
+*color7: #7E8E91
+*color15: #4E4E4E
+! Dark Magenta + Magenta
+*color5:  #8C60DB
+*color13: #AE81FF
+! Dark Red + Red
+*color1: #FF5C97
+*color9: #F92672
+! Dark Green + Light Green (Executable files)
+*color2:  #A6E22E
+*color10: #CCFF66
+! Dark Blue + Blue (Directories)
+*color4:  #107BCC
+*color12: #17A4D6
+! Dark Cyan + Cyan (Symbolic links)
+*color6:  #66D9EF
+*color14: #80EBFF

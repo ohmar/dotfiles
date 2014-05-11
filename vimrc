@@ -2,6 +2,8 @@ set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 9
 " set guifont=Terminess\ Powerline\ 9
 set nocompatible
 set backspace=2
+" set spellcheck on
+set spell
 
 set tabstop=4
 set shiftwidth=4
@@ -18,6 +20,7 @@ Bundle 'junegunn/seoul256.vim'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'Shougo/neocomplete.vim'
 Bundle 'chriskempson/base16-vim'
+Bundle 'scrooloose/nerdtree'
 
 filetype plugin on
 " set grepprg=grep\ -nH\ $*
@@ -25,7 +28,7 @@ filetype indent on
 
 set t_Co=256
 syntax on
-colorscheme zenburn
+colorscheme molokai
 set background=dark
 set number
 
@@ -34,6 +37,10 @@ set number
 "python powerline_setup()
 "python del powerline_setup
 set rtp+=/home/omar/.local/lib/python3.4/site-packages/powerline/bindings/vim
+let g:Powerline_symbols = 'fancy'
+let g:Powerline_mode_n = 'N'
+let g:Powerline_mode_i = 'I'
+let g:Powerline_mode_v = 'V'
 
 " LaTeX stuff
 set laststatus=2

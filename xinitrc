@@ -1,9 +1,17 @@
-xrandr --newmode "1680x1050" 146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync &
+exec > .xsession-errors 2>&1
 
-xrandr --addmode VGA1 1680x1050 &
+xset +fp /usr/share/fonts/local &
+xset +fp /home/omar/.fonts &
+xset fp rehash &
 
-xmodmap ~/.xmodmap &
+feh --bg-center ~/OrangeSunset.jpg &
 
-xrdb -merge ~/.Xresources &
+# MPD daemon start
+# [ ! -s ~/.config/mpd/pid ] && mpd &
 
-redshift &
+xmodmap /home/omar/.xmodmap &
+
+# BSPWM
+sxhkd &
+exec bspwm
+
