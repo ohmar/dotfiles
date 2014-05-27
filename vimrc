@@ -11,17 +11,18 @@ set expandtab
 
 " Set runtime path for vundle and initialize.
 filetype off
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " Bundles for vundle.
-Bundle 'gmarik/vundle'
-Bundle 'junegunn/seoul256.vim'
-Bundle 'flazz/vim-colorschemes'
-Bundle 'Shougo/neocomplete.vim'
-Bundle 'chriskempson/base16-vim'
-Bundle 'scrooloose/nerdtree'
+Plugin 'gmarik/Vundle.vim'
+Plugin 'junegunn/seoul256.vim'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'Shougo/neocomplete.vim'
+Plugin 'chriskempson/base16-vim'
+Plugin 'scrooloose/nerdtree'
 
+call vundle#end()
 filetype plugin on
 " set grepprg=grep\ -nH\ $*
 filetype indent on
