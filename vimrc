@@ -1,9 +1,11 @@
-set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 9
+" set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 9
 " set guifont=Terminess\ Powerline\ 9
+" set guifont=Meslo\ LG\ S\ for\ Powerline\ 10
+set guifont=Monaco\ 10
 set nocompatible
 set backspace=2
 " set spellcheck on
-set spell
+" set spell
 
 set tabstop=4
 set shiftwidth=4

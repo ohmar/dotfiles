@@ -8,17 +8,15 @@ else
   	echo "No VGA connection found" &
 fi
 
-xset +fp /usr/share/fonts/local &
-xset +fp /home/omar/.fonts &
-xset +fp /home/omar/lokaltog-fonts &
-xset fp rehash &
+xset +fp /usr/share/fonts/local
+xset +fp /home/omar/.fonts
+xset +fp /home/omar/lokaltog-fonts
+xset fp rehash
 
-feh --bg-center ~/StarryLake.jpg &
+feh --bg-center ~/StarryLake.jpg
 
 # MPD daemon start
 # [ ! -s ~/.config/mpd/pid ] && mpd &
-
-wmname LG3D &
 
 xmodmap /home/omar/.xmodmap &
 
