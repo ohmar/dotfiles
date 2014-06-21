@@ -1,0 +1,5 @@
+#/bin/sh
+
+pkill -x dmenu
+xdotool search --class conky windowunmap %@
+dmenu_run -l 20 -w 200 -y 00 -fn -*-terminus-symbols-*-*-*-*-*-*-*-*-*-*-*-* -nb '#001417' -nf '#bbbbbb' -sf '#bbbbbb' -sb '#1c1c1c' 2>/dev/null
