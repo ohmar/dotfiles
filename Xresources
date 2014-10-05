@@ -7,8 +7,8 @@
 ! *font: xft:Inconsolata:size=9:style=Regular
 ! *boldFont: xft:Inconsolata:size=9:style=Bold
 ! urxvt.letterSpace: -1
-! *font: xft:Droid Sans Mono for Powerline:pixelsize=13
-! *boldFont: xft:Droid Sans Mono for Powerline:pixelsize=13:style=Bold
+! *font: xft:Droid Sans Mono for Powerline:pixelsize=12
+! *boldFont: xft:Droid Sans Mono for Powerline:pixelsize=12:style=Bold
 *font: xft:Meslo\ LG\ S\ for\ Powerline:pixelsize=11:style=Book
 *boldFont: xft:Meslo\ LG\ S\ for\ Powerline:pixelsize=11:style=Bold
 ! urxvt.letterSpace: -1
@@ -38,33 +38,24 @@ urxvt.url-launcher:      /usr/bin/chromium
 urxvt.keysym.M-c:        perl:clipboard:copy
 urxvt.keysym.M-v:        perl:clipboard:paste
 
-! terminal colours
-*foreground:#a0a0a0
-*background:#1b1d1e
+!.Xdefaults - colors and stuff
+*.background: #1f1f2c
+*.foreground: #c7c9cb
 
-!molokai inspired colors
-
-!black
-*color0:    #1b1d1e
-*color8:    #505354
-!red
-*color1:    #f92672
-*color9:    #ff5995
-!green
-*color2:    #82b414
-*color10:   #b6e354
-!yellow
-*color3:    #fd971f
-*color11:   #feed6c
-!blue
-*color4:    #56c2d6
-*color12:   #8cedff
-!magenta
-*color5:    #8c54fe
-!*color13:   #9e6ffe
-!cyan
-*color6:    #465457
-*color14:   #899ca1
-!white
-*color7:    #ccccc6
-*color15:   #f8f8f2
+!Normal Colors
+*.color0: #3f3f4c
+*.color1: #91A0BD
+*.color2: #5C6B8B
+*.color3: #adc6d6
+*.color4: #a091bd
+*.color5: #6c5c8b
+*.color6: #afadd6
+*.color7: #cccaca
+!Light Colors
+*.color8: #525263
+*.color9: #a4adbd
+*.color10: #6a748b
+*.color11: #c3ced6
+*.color12: #ada4bd
+*.color13: #756a8b
+*.color14: #c4c3d6
