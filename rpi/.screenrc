@@ -1,0 +1,6 @@
+vbell off
+startup_message off
+hardstatus alwayslastline
+hardstatus string '%{= kg}[%H][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%d/%m %{g}%C%A]'
+
+termcapinfo xterm|xterms|xs|rxvt ti@:te@
