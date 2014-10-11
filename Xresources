@@ -1,4 +1,4 @@
-! *font: -*-terminus-symbols-*-*-*-*-*-*-*-*-*-*-*-*
+*font: -*-terminus-symbols-*-*-*-*-*-*-*-*-*-*-*-*
 ! *boldFont: -*-terminus-symbols-*-*-*-*-*-*-*-*-*-*-*-*
 ! URxvt*font: xft:Terminess Powerline:size=9
 ! *font: -*-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-1
@@ -9,8 +9,8 @@
 ! urxvt.letterSpace: -1
 ! *font: xft:Droid Sans Mono for Powerline:pixelsize=13
 ! *boldFont: xft:Droid Sans Mono for Powerline:pixelsize=13:style=Bold
-*font: xft:Meslo\ LG\ S\ for\ Powerline:pixelsize=11:style=Book
-*boldFont: xft:Meslo\ LG\ S\ for\ Powerline:pixelsize=11:style=Bold
+! *font: xft:Meslo\ LG\ S\ for\ Powerline:pixelsize=11:style=Book
+! *boldFont: xft:Meslo\ LG\ S\ for\ Powerline:pixelsize=11:style=Bold
 ! urxvt.letterSpace: -1
 
 ! XFT CONFIG
