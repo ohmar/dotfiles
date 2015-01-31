@@ -1,23 +1,22 @@
-*font: -*-terminus-symbols-*-*-*-*-*-*-*-*-*-*-*-*
+! *font: -*-terminus-symbols-*-*-*-*-*-*-*-*-*-*-*-*
 ! *boldFont: -*-terminus-symbols-*-*-*-*-*-*-*-*-*-*-*-*
 ! URxvt*font: xft:Terminess Powerline:size=9
-! *font: -*-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-1
+*font: -*-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-1
 ! *boldFont: -*-terminus-bold-r-normal--12-120-72-72-c-60-iso8859-1
 
 ! *font: xft:Inconsolata:size=9:style=Regular
 ! *boldFont: xft:Inconsolata:size=9:style=Bold
 ! urxvt.letterSpace: -1
-<<<<<<< HEAD
+
 ! *font: xft:Droid Sans Mono for Powerline:pixelsize=13
 ! *boldFont: xft:Droid Sans Mono for Powerline:pixelsize=13:style=Bold
 ! *font: xft:Meslo\ LG\ S\ for\ Powerline:pixelsize=11:style=Book
 ! *boldFont: xft:Meslo\ LG\ S\ for\ Powerline:pixelsize=11:style=Bold
-=======
+
 ! *font: xft:Droid Sans Mono for Powerline:pixelsize=12
 ! *boldFont: xft:Droid Sans Mono for Powerline:pixelsize=12:style=Bold
-*font: xft:Meslo\ LG\ S\ for\ Powerline:pixelsize=11:style=Book
-*boldFont: xft:Meslo\ LG\ S\ for\ Powerline:pixelsize=11:style=Bold
->>>>>>> f2fc5be7107e076b5313b22570a6490c35fd3915
+! *font: xft:Meslo\ LG\ S\ for\ Powerline:pixelsize=11:style=Book
+! *boldFont: xft:Meslo\ LG\ S\ for\ Powerline:pixelsize=11:style=Bold
 ! urxvt.letterSpace: -1
 
 ! XFT CONFIG

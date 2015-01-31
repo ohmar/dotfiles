@@ -13,7 +13,7 @@ xset +fp /home/omar/.fonts
 xset +fp /home/omar/lokaltog-fonts
 xset fp rehash
 
-feh --bg-center ~/StarryLake.jpg
+feh --bg-center ~/mobius.jpg
 
 # MPD daemon start
 # [ ! -s ~/.config/mpd/pid ] && mpd &
