@@ -1,7 +1,7 @@
 " set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 9
 " set guifont=Terminess\ Powerline\ 9
 " set guifont=Meslo\ LG\ S\ for\ Powerline\ 10
-set guifont=Monaco\ 10
+set guifont=Monaco\ 9
 set nocompatible
 set backspace=2
 " set spellcheck on
@@ -22,7 +22,8 @@ Plugin 'junegunn/seoul256.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'Shougo/neocomplete.vim'
 Plugin 'chriskempson/base16-vim'
-Plugin 'scrooloose/nerdtree'
+Plugin 'noahfrederick/vim-noctu'
+Plugin 'noahfrederick/vim-hemisu'
 
 call vundle#end()
 filetype plugin on
@@ -31,7 +32,7 @@ filetype indent on
 
 set t_Co=256
 syntax on
-colorscheme molokai
+colorscheme hemisu
 set background=dark
 set number
 

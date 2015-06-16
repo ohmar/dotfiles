@@ -31,29 +31,29 @@ level=$(echo "scale=2; $brightnessLevel / $maxBrightness * 100" | bc | awk '{pri
 #      100)      notify-send "Brightness:" "••••••••••••••••";;
 #esac
 
-if [ $level -le 10 ]; then
-    notify-send "Brightness:" "•○○○○○○○○○"
-elif [[ $level -gt 10 && $level -le 20 ]]; then
-    notify-send "Brightness:" "••○○○○○○○○"
-elif [[ $level -gt 20 && $level -le 30 ]]; then
-    notify-send "Brightness:" "•••○○○○○○○" 
-elif [[ $level -gt 30 && $level -le 40 ]]; then
-    notify-send "Brightness:" "••••○○○○○○";
-elif [[ $level -gt 40 && $level -le 50 ]]; then
-    notify-send "Brightness:" "•••••○○○○○"; 
-elif [[ $level -gt 50 && $level -le 60 ]]; then
-    notify-send "Brightness:" "••••••○○○○"
-elif [[ $level -gt 60 && $level -le 70 ]]; then
-    notify-send "Brightness:" "•••••••○○○";
-elif [[ $level -gt 70 && $level -le 80 ]]; then
-    notify-send "Brightness:" "••••••••○○"
-elif [[ $level -gt 80 && $level -le 90 ]]; then
-    notify-send "Brightness:" "•••••••••○" 
-elif [[ $level -gt 90 && $level -lt 100 ]]; then
-    notify-send "Brightness:" "••••••••••"
-elif [ $level -eq 100 ]; then
-    notify-send "Brightness level maximum"
-fi
+#if [ $level -le 10 ]; then
+#    notify-send "Brightness:" "•○○○○○○○○○"
+#elif [[ $level -gt 10 && $level -le 20 ]]; then
+#    notify-send "Brightness:" "••○○○○○○○○"
+#elif [[ $level -gt 20 && $level -le 30 ]]; then
+#    notify-send "Brightness:" "•••○○○○○○○" 
+#elif [[ $level -gt 30 && $level -le 40 ]]; then
+#    notify-send "Brightness:" "••••○○○○○○";
+#elif [[ $level -gt 40 && $level -le 50 ]]; then
+#    notify-send "Brightness:" "•••••○○○○○"; 
+#elif [[ $level -gt 50 && $level -le 60 ]]; then
+#    notify-send "Brightness:" "••••••○○○○"
+#elif [[ $level -gt 60 && $level -le 70 ]]; then
+#    notify-send "Brightness:" "•••••••○○○";
+#elif [[ $level -gt 70 && $level -le 80 ]]; then
+#    notify-send "Brightness:" "••••••••○○"
+#elif [[ $level -gt 80 && $level -le 90 ]]; then
+#    notify-send "Brightness:" "•••••••••○" 
+#elif [[ $level -gt 90 && $level -lt 100 ]]; then
+#    notify-send "Brightness:" "••••••••••"
+#elif [ $level -eq 100 ]; then
+#    notify-send "Brightness level maximum"
+#fi
 
 
 

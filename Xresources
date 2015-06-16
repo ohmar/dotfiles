@@ -1,7 +1,8 @@
 ! *font: -*-terminus-symbols-*-*-*-*-*-*-*-*-*-*-*-*
 ! *boldFont: -*-terminus-symbols-*-*-*-*-*-*-*-*-*-*-*-*
 ! URxvt*font: xft:Terminess Powerline:size=9
-*font: -*-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-1
+! *font: -*-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-1
+*font: -*-terminus-symbols-*-*-*-*-*-*-*-*-*-*-*-*
 ! *boldFont: -*-terminus-bold-r-normal--12-120-72-72-c-60-iso8859-1
 
 ! *font: xft:Inconsolata:size=9:style=Regular
@@ -31,12 +32,7 @@ Xft.hintstyle: hintfull
 
 ! URXVT CONFIG
 
-!urxvt.termName:          xterm-256color
-!urxvt.imLocale:          en_US.UTF-8
-!urxvt.cursorBlink:       1
 urxvt.scrollBar:         0
-!urxvt.scrollTtyOutput:   0
-!urxvt.scrollTtyKeypress: 1
 urxvt.saveLines:         4096
 urxvt.perl-ext-common:   default,clipboard,keyboard-select
 urxvt.underlineURLs:     1
